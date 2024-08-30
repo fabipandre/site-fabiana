@@ -1,0 +1,128 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Define a fonte padrão da página */
+    margin: 0; /* Remove as margens padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    background-color: #f4f4f4; /* Define uma cor de fundo clara */
+    background-image: url('../img/fundo_tela.jpg'); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    background-color: hsl(318, 94%, 20%); /* Define a cor de fundo do menu de navegação como cinza escuro */
+    color: white; /* Define a cor do texto no menu como branca */
+    padding: 20px 0; /* Adiciona padding vertical ao menu */
+}
+
+/* Estilos para a lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding da lista */
+    margin: 0; /* Remove a margem da lista */
+    text-align: center; /* Centraliza os itens da lista */
+}
+
+/* Estilos para os itens da lista dentro do menu */
+nav ul li {
+    display: inline; /* Exibe os itens da lista na mesma linha */
+    margin-right: 95px; /* Adiciona um espaço entre os itens da lista */
+
+}
+
+/* CSS para a imagem à esquerda com bordas arredondadas e sombra */
+.img-esquerda {
+    float: left; /* Faz a imagem flutuar à esquerda */
+    margin-left: 100px; /* Adiciona um espaço à esquerda da imagem */
+    margin-right: 50px;
+    margin-bottom: 170px;
+    width: 300px; /* Define a largura da imagem */      
+    border-radius: 20px;/* Adiciona bordas arredondadas */   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra à imagem */
+}
+
+.img-esquerda-2 {
+    float: left; /* Faz a imagem flutuar à esquerda */
+    margin-left: 80px; /* Adiciona um espaço à esquerda da imagem */
+    margin-right: 50px;
+    margin-top: 140px;
+    margin-bottom: 170px;
+    width: 400px; /* Define a largura da imagem */      
+    border-radius: 20px;/* Adiciona bordas arredondadas */   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra à imagem */
+}
+
+
+/* Estilos para os links dentro do menu */
+nav ul li a {
+    color: white; /* Define a cor dos links como branca */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilos para os links ao passar o mouse por cima */
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado aos links ao passar o mouse */
+}
+
+/* Estilos para os títulos principais */
+h1 {
+    color:  hsl(318, 94%, 20%); /* Define a cor dos títulos como cinza escuro */
+    text-align: left; /* Centraliza o texto dos títulos */
+    margin-top: 55px; /* Adiciona um espaço acima dos títulos */
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+/* Estilos para os parágrafos */
+p {
+    text-align: justify; /* Centraliza o texto dos parágrafos */
+    margin-top: 30px; /* Adiciona um espaço acima dos parágrafos */
+    margin-right: 300px; /* Adiciona um espaço à direita dos parágrafos */
+    margin-left: 100px; /* Adiciona um espaço à esquerda dos parágrafos */
+    font-size: larger; /* Ajustar o tamanho da fonte */
+    color: hsl(318, 94%, 20%); /* Definir a cor da fonte */
+}
+
+/* Estilos para o formulário de contato */
+form {
+    max-width: 600px; /* Define a largura máxima do formulário */
+    margin-left: 100px; /* Centraliza o formulário horizontalmente */
+    padding: 20px; /* Adiciona padding interno ao formulário */
+    background-color: #fff; /* Define a cor de fundo do formulário como branca */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao formulário */
+}
+
+/* Estilos para os rótulos dos campos do formulário */
+label {
+    font-weight: bold; /* Define o texto dos rótulos como negrito */
+    margin-top: 10px; /* Adiciona espaço acima dos rótulos */
+}
+
+/* Estilos para os campos de entrada de texto e área de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%; /* Define a largura dos campos como 100% do contêiner */
+    padding: 10px; /* Adiciona padding interno aos campos */
+    margin-top: 5px; /* Adiciona espaço acima dos campos */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos campos */
+    border: 1px solid  hsl(318, 94%, 20%) /* Define uma borda cinza clara para os campos */
+}
+
+/* Estilos para o botão de submissão */
+input[type="submit"] {
+    background-color:  hsl(318, 94%, 20%); /* Define a cor de fundo do botão como cinza escuro */
+    color: white; /* Define a cor do texto do botão como branca */
+    padding: 10px 20px; /* Adiciona padding interno ao botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Define o cursor como uma mão ao passar o mouse sobre o botão */
+}
+
+/* Estilos para o botão de submissão ao passar o mouse por cima */
+input[type="submit"]:hover {
+    background-color:  hsl(318, 94%, 20%) /* Muda a cor de fundo do botão ao passar o mouse por cima */
+}
